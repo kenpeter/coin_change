@@ -30,11 +30,6 @@ function rec(n, myArr) {
 			var copyRes = res.slice();
 			var item = myArr[i];
 
-			// test
-			console.log('---');
-			console.log(item);
-			console.log(copyRes);
-
 			// always new copy 
 			copyRes = copyRes.concat([item]);	
 
